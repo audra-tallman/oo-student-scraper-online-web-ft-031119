@@ -3,7 +3,7 @@ require 'Nokogiri'
 require 'pry'
 
 class Scraper
-  attr_accessor :index_url, :profile_url
+  attr_accessor :studend_index_array, :index_url, :profile_url
 
 
   def self.scrape_index_page(index_url)
